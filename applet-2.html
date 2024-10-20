@@ -25,6 +25,29 @@
             height: 500px;
             justify-content: center;
         }
+
+        .container {
+            width: 95%;
+            margin: 2rem auto;
+        }
+
+        .btn-container {
+            border-radius: 5px;
+            padding: 3rem 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .btn-container h4 {
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-container button {
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-container #btnclear {
+            margin-left: 0.1rem;
+        }
     </style>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -70,12 +93,27 @@
 
 <body>
 
+
     <body>
 
         <div class="container">
-            <h2>Leaflet Map</h2>
+            <h2 style="text-align: center; margin-bottom: 3rem;">Leaflet Map</h2>
             <div id="map"></div>
 
+            <div class="btn-container">
+                <h4 id="logCount1">Attendance Count: </h4>
+                <button class="btn btn-dark" id="btn1">Log Attendance</button>
+                
+                <h4 id="logCount2">Attendance Count: </h4>
+                <button class="btn btn-dark" id="btn2">Log Attendance</button>
+
+                <h4 id="logCount3">Attendance Count: </h4>
+                <button class="btn btn-dark" id="btn3">Log Attendance</button>
+
+                <div id="logContainer"></div>
+                <button class="btn btn-primary" id="btnclear">Clear</button>
+            </div>
+        </div>
 
 
     </body>
