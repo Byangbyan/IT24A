@@ -16,9 +16,9 @@ class LeafletMap {
         this.btn2 = document.getElementById('btn3');
 
         this.btnclear = document.getElementById('btnclear');
-        this.logCountElement = document.getElementById('logCountBukels');
-        this.logCount1Element = document.getElementById('logCountWWE');
-        this.logCount2Element = document.getElementById('logCountKNN');
+        this.logCountElement = document.getElementById('logCount1');
+        this.logCount1Element = document.getElementById('logCount2');
+        this.logCount2Element = document.getElementById('logCount3');
         this.idContainer = document.getElementById('logContainer');
 
         this.btn.addEventListener('click', () => this.dataB());
