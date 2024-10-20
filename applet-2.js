@@ -42,7 +42,7 @@ class LeafletMap {
             .bindPopup(message);
     }
 
-    
+
     loadMarkersFromJson(url) {
         fetch(url)
             .then(response => response.json())
@@ -53,9 +53,6 @@ class LeafletMap {
             })
             .catch(error => console.error("Error Loading servers:", error));
     }
-
-
-
 
     clearLogs() {
         this.attendanceCountB = 0;
