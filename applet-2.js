@@ -26,7 +26,7 @@ class LeafletMap {
         this.btn2.addEventListener('click', () => this.dataK());
         this.btnclear.addEventListener('click', () => this.clearLogs());
 
-        
+
     }
 
     initTileLayer() {
@@ -36,6 +36,7 @@ class LeafletMap {
         }).addTo(this.map);
     }
 
+    
     addMarker(lat, long, message) {
         const marker = L.marker([lat, long]).addTo(this.map)
             .bindPopup(message);
