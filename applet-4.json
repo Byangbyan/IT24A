@@ -1,0 +1,19 @@
+[
+    {
+        "student_id": 1,
+        "student_name": "Lovella Sarilla",
+        "student_program": "Me"
+    },
+
+    {
+        "student_id": 2,
+        "student_name": "Zyra Sham Medado",
+        "student_program": "My Friend"
+    },
+
+    {
+        "student_id": 3,
+        "student_name": "Charity Salinas",
+        "student_program": "My Friend"
+    }
+]
