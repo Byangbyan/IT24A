@@ -4,7 +4,7 @@ class LeafletMap {
         this.map = L.map(containerId).setView(center, zoom);
         this.initTileLayer();
 
-        
+
         this.attendanceCountB = 0;
         this.attendanceCountW = 0;
         this.attendanceCountK = 0;
@@ -26,6 +26,7 @@ class LeafletMap {
         this.btn2.addEventListener('click', () => this.dataK());
         this.btnclear.addEventListener('click', () => this.clearLogs());
 
+        
     }
 
     initTileLayer() {
