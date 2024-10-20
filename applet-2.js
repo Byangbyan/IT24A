@@ -4,6 +4,7 @@ class LeafletMap {
         this.map = L.map(containerId).setView(center, zoom);
         this.initTileLayer();
 
+        
         this.attendanceCountB = 0;
         this.attendanceCountW = 0;
         this.attendanceCountK = 0;
