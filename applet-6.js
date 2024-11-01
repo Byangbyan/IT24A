@@ -34,7 +34,6 @@ class todoList{
             </div>
         `;
         this.todoList.appendChild(listItem);
-
     }
     doneTask(event) {
         const taskItem = event.target.closest('.todo-item');
@@ -73,6 +72,5 @@ class TimestampedTodoList extends todoList {
         timestamp.textContent = new Date().toLocaleString();
         taskItem.appendChild(timestamp);
     }
-    
 }
 document.addEventListener('DOMContentLoaded', () => new todoList());
